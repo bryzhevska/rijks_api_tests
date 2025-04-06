@@ -1,0 +1,7 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","Collection Details","Retrieve collection object by valid object number","0","0","1","0","0"
+"","Authorization","Request collection with invalid API key","0","0","1","0","0"
+"","Collection","Retrieve collection list by default size","0","0","1","0","0"
+"","Collection","Retrieve collection list by requested size","1","0","0","0","0"
+"","Collection Details","Retrieve collection object by invalid object number","1","0","0","0","0"
+"","Collection","Search for collection object by first maker","0","0","1","0","0"
