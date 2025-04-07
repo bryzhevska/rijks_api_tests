@@ -1,0 +1,2 @@
+[2025-04-07 09:48:17,728] [INFO] Sending GET request to https://www.rijksmuseum.nl/api/en/collection/SK-C-597 with params: {'key': '0fiuZFh4', 'format': 'json'}
+[2025-04-07 09:48:18,212] [DEBUG] Response [200]: {"elapsedMilliseconds":108,"artObject":{"links":{"search":"http://www.rijksmuseum.nl/api/nl/collection"},"id":"en-SK-C-597","priref":"5237","objectNumber":"SK-C-597","language":"en","title":"Portrait of a Woman, Probably Maria Trip (1619-1683)","copyrightHolder":null,"webImage":{"guid":"165d03bb-95e

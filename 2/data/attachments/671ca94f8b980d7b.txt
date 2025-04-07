@@ -1,0 +1,2 @@
+INFO     rijksmuseum-api:client.py:26 Sending GET request to https://www.rijksmuseum.nl/api/en/collection/INVALID-ID with params: {'key': '0fiuZFh4', 'format': 'json'}
+DEBUG    rijksmuseum-api:client.py:29 Response [200]: {"elapsedMilliseconds":182,"artObject":null,"artObjectPage":null}

@@ -1,0 +1,2 @@
+[2025-04-07 09:48:14,275] [INFO] Sending GET request to https://www.rijksmuseum.nl/api/en/collection with params: {'ps': 15, 'key': '0fiuZFh4', 'format': 'json'}
+[2025-04-07 09:48:15,735] [DEBUG] Response [200]: {"elapsedMilliseconds":0,"count":833120,"countFacets":{"hasimage":703475,"ondisplay":8749},"artObjects":[{"links":{"self":"http://www.rijksmuseum.nl/api/en/collection/SK-C-597","web":"http://www.rijksmuseum.nl/en/collection/SK-C-597"},"id":"en-SK-C-597","objectNumber":"SK-C-597","title":"Portrait of

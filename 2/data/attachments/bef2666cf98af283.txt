@@ -1,0 +1,3 @@
+[2025-04-07 09:48:13,683] [INFO] Sending GET request to https://www.rijksmuseum.nl/api/en/collection with params: {'key': 'INVALID', 'format': 'json'}
+[2025-04-07 09:48:14,272] [DEBUG] Response [401]: "Invalid key"
+[2025-04-07 09:48:14,273] [ERROR] [HTTP ERROR] 401 Client Error: Unauthorized for url: https://www.rijksmuseum.nl/api/en/collection?key=INVALID&format=json - "Invalid key"

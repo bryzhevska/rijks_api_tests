@@ -1,0 +1,2 @@
+[2025-04-07 09:48:18,214] [INFO] Sending GET request to https://www.rijksmuseum.nl/api/en/collection/INVALID-ID with params: {'key': '0fiuZFh4', 'format': 'json'}
+[2025-04-07 09:48:18,769] [DEBUG] Response [200]: {"elapsedMilliseconds":182,"artObject":null,"artObjectPage":null}

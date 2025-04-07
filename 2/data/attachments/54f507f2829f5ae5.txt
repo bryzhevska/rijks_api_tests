@@ -1,0 +1,3 @@
+INFO     rijksmuseum-api:client.py:26 Sending GET request to https://www.rijksmuseum.nl/api/en/collection with params: {'key': 'INVALID', 'format': 'json'}
+DEBUG    rijksmuseum-api:client.py:29 Response [401]: "Invalid key"
+ERROR    rijksmuseum-api:client.py:34 [HTTP ERROR] 401 Client Error: Unauthorized for url: https://www.rijksmuseum.nl/api/en/collection?key=INVALID&format=json - "Invalid key"
