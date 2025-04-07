@@ -7,12 +7,12 @@ and Pydantic for JSON validation.
 
 ## 🔧 Features
 
-- ✅ REST API Testing with `requests`
-- ✅ JSON Validation using `Pydantic`
-- ✅ Logging and debugging
-- ✅ Secure API Key via `.env`
-- ✅ Allure reports with features/stories
-- ✅ GitHub Actions CI/CD integration
+- REST API Testing with `requests`
+- JSON Validation using `Pydantic`
+- Logging and debugging
+- Secure API Key via `.env`
+- Allure reports with features/stories
+- GitHub Actions CI/CD integration
 
 ---
 
@@ -48,9 +48,17 @@ allure serve allure-results
 
 ---
 
-## 🧪 GitHub Actions
+##  GitHub Actions
 
 - CI runs tests and uploads Allure results.
 - Make sure to add `RIJKSMUSEUM_API_KEY` to your GitHub secrets.
 
 ---
+
+##  Identified issues (for which automated tests fail):
+ - Request of an object with invalid ID does not result in 400(404) response code
+ - ps parameter handled not as expected 
+
+## Dashboard with test results
+ - https://bryzhevska.github.io/rijks_api_tests/
+
