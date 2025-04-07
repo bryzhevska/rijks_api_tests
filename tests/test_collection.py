@@ -13,7 +13,8 @@ def test_get_collection_by_specified_size():
     assert response.status_code == 200
     validate_with_model(CollectionResponse, response.json())
     response_data = CollectionResponse.model_validate_json(response.text)
-    assert len(response_data.artObjects) == 15
+    expected_number_of_objects = len(response_data.artObjects)
+    assert  expected_number_of_objects == 15
 
 
 @allure.feature("Collection")
