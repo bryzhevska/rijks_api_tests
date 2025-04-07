@@ -1,0 +1,2 @@
+[2025-04-07 10:19:27,242] [INFO] Sending GET request to https://www.rijksmuseum.nl/api/en/collection with params: {'q': 'Rembrandt+van+Rijn', 'key': '0fiuZFh4', 'format': 'json'}
+[2025-04-07 10:19:27,953] [DEBUG] Response [200]: {"elapsedMilliseconds":0,"count":4556,"countFacets":{"hasimage":4183,"ondisplay":33},"artObjects":[{"links":{"self":"http://www.rijksmuseum.nl/api/en/collection/SK-A-4050","web":"http://www.rijksmuseum.nl/en/collection/SK-A-4050"},"id":"en-SK-A-4050","objectNumber":"SK-A-4050","title":"Self-portrait
